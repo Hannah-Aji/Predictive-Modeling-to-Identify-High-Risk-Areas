@@ -5,7 +5,7 @@ Analyzing Chicago Crime Dataset Using an Unsupervised Machine Learning Model
 
 In the city of Chicago,
 
-*How do crime rates and types vary across different seasons and days of the week?
+* How do crime rates and types vary across different seasons and days of the week?
 
 How do crime patterns differ between residential blocks and commercial/industrial blocks within the same community area?
 
