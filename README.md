@@ -25,7 +25,7 @@ Predictive modeling
 
 I used the Chicago Crime dataset, a comprehensive dataset (exported from https://data.cityofchicago.org/ in .csv format). This dataset provides detailed information on reported crime incidents across the city. 
 
-To clean the data, I used Pandas to filter out data points (columns) irrelevant to the "Intriguing questions" I want answered and ensured that there no missing values. 
+To clean the data, I used Pandas to filter out data points (columns) irrelevant to the "Intriguing questions" I want answered and checked for missing values, ensuring its accuracy and completeness. 
 
 
 ## Exploratory Data Analysis
