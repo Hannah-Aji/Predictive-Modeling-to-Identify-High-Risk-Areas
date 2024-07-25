@@ -21,4 +21,11 @@ Predictive modeling
 
 * Can temporal patterns (e.g., time of day, day of the week) combined with location descriptions predict hotspots for specific types of crimes (e.g., burglary in residential areas, theft in commercial areas)?
 
-# Exploratory Data Analysis
+## Data Collection and Preparation
+
+I used the Chicago Crime dataset, a comprehensive dataset (exported from https://data.cityofchicago.org/ in .csv format). This dataset provides detailed information on reported crime incidents across the city. 
+
+To clean the data, I used Pandas to filter out data points (columns) irrelevant to the "Intriguing questions" I want answered and ensured that there no missing values. 
+
+
+## Exploratory Data Analysis
