@@ -5,13 +5,17 @@ Analyzing Chicago Crime Dataset Using an Unsupervised Machine Learning Model
 
 In the city of Chicago,
 
+* How does temperature affect the incident rate of violent crime (assault or battery)?
+
+* Which month, location generally has the greatest number of crime reported?
+  
 * How do crime rates and types vary across different seasons and days of the week?
+
+* What categories of crime exhibited the greatest year-over-year increase between 2021 and 2022?
 
 * How do crime patterns differ between residential blocks and commercial/industrial blocks within the same community area?
 
 * Are certain types of crimes more likely to result in arrests than others?
-
-* What are the most common locations where domestic-related crimes occur?
 
 Predictive modeling
 
