@@ -68,12 +68,13 @@ To clean the data, I used Pandas to filter out data points (columns) irrelevant 
 
 ### Converting the 'Date' Column to Datetime Format
 From 03/18/2015 12:00:00 PM to 2015-03-18 12:00:00
+
 In this step,I converted the 'Date' column in the DataFrame to datetime format. This allows for easier manipulation and analysis of date and time information. The conversion is done using the `pd.to_datetime` function from the pandas library.
 
 ```python
 # Convert the 'Date' column to datetime format
 df_clean['Date'] = pd.to_datetime(df_clean['Date'], format='%m/%d/%Y %I:%M:%S %p')
-
+```
 
 
 ## Exploratory Data Analysis
