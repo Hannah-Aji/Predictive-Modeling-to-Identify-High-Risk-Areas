@@ -47,18 +47,22 @@ Location                326
 
 
 ### After Cleaning
-Missing values in each column:
-ID                      0
-Date                    0
-Block                   0
-Primary Type            0
-Description             0
-Location Description    0
-Arrest                  0
-Domestic                0
-Community Area          0
-Year                    0
-Location                0
+#### Missing Values in Each Column
+
+| Column                | Missing Values |
+|-----------------------|----------------|
+| ID                    | 0              |
+| Date                  | 0              |
+| Block                 | 0              |
+| Primary Type          | 0              |
+| Description           | 0              |
+| Location Description  | 0              |
+| Arrest                | 0              |
+| Domestic              | 0              |
+| Community Area        | 0              |
+| Year                  | 0              |
+| Location              | 0              |
+
 
 
 ## Exploratory Data Analysis
