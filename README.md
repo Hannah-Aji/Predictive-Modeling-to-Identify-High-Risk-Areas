@@ -29,7 +29,36 @@ Predictive modeling
 
 I used the Chicago Crime dataset, a comprehensive dataset (exported from https://data.cityofchicago.org/ in .csv format). This dataset provides detailed information on reported crime incidents across the city. 
 
-To clean the data, I used Pandas to filter out data points (columns) irrelevant to the "Intriguing questions" I want answered and checked for missing values, ensuring its accuracy and completeness. 
+To clean the data, I used Pandas to filter out data points (columns) irrelevant to the "Intriguing questions" I want answered and removed the rows that have missing values, ensuring its accuracy and completeness. 
+
+### Before Cleaning
+Missing values in each column:
+ID                        0
+Date                      0
+Block                     0
+Primary Type              0
+Description               0
+Location Description    153
+Arrest                    0
+Domestic                  0
+Community Area           12
+Year                      0
+Location                326
+
+
+### After Cleaning
+Missing values in each column:
+ID                      0
+Date                    0
+Block                   0
+Primary Type            0
+Description             0
+Location Description    0
+Arrest                  0
+Domestic                0
+Community Area          0
+Year                    0
+Location                0
 
 
 ## Exploratory Data Analysis
