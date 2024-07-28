@@ -17,7 +17,7 @@ In the city of Chicago,
 
 * Are certain types of crimes more likely to result in arrests than others?
 
-Predictive modeling
+#### Predictive modeling
 
 * Can a machine learning model accurately predict the safest times and locations for being in residential or commercial areas?
 
