@@ -38,7 +38,7 @@ The dataset was loaded into a pandas DataFrame from a CSV file. This dataset con
 
 #### Removing Null Rows and Unwanted Columns:
 Null Rows: All rows with any missing values were removed using the dropna() method.
-Unwanted Columns: The following columns were dropped as they were deemed unnecessary for the analysis:
+Unwanted Columns: The following columns were dropped as they were unnecessary for the analysis:
 
       CASE#
       IUCR
@@ -71,3 +71,8 @@ This cleaned dataset is now ready for further analysis, including time-based tre
 
 
 ## Exploratory Data Analysis
+
+To summarize the conclusions to the above questions, these are visualization that were made to present insights using Matplotlib
+![image](https://github.com/user-attachments/assets/4118bdbf-8a20-412e-aa14-8ff0e979b3ba)
+
+
