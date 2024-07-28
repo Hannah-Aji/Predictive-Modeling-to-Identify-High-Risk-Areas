@@ -39,6 +39,7 @@ The dataset was loaded into a pandas DataFrame from a CSV file. This dataset con
 #### Removing Null Rows and Unwanted Columns:
 Null Rows: All rows with any missing values were removed using the dropna() method.
 Unwanted Columns: The following columns were dropped as they were deemed unnecessary for the analysis:
+
       CASE#
       IUCR
       BEAT
