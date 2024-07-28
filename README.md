@@ -27,7 +27,7 @@ In the city of Chicago,
 
 ## Data Collection and Preparation
 
-I used the Chicago Crime dataset, a comprehensive dataset (exported from https://data.cityofchicago.org/ in .csv format). This dataset provides detailed information on reported crime incidents across the city. 
+I used the Chicago Crime dataset, a comprehensive dataset (exported from https://data.cityofchicago.org/ in .csv format). This dataset provides detailed information on reported crime incidents across the city from 2023 to the Present (July 2024). 
 
 To clean the data, I used Pandas to filter out data points (columns) irrelevant to the "Intriguing questions" I want answered and removed the rows that have missing values, ensuring its accuracy and completeness. 
 
