@@ -72,7 +72,18 @@ This cleaned dataset is now ready for further analysis, including time-based tre
 
 ## Exploratory Data Analysis
 
-To summarize the conclusions to the above questions, these are visualization that were made to present insights using Matplotlib
+To summarize the conclusions to the above questions, these are visualization that were made to present insights using Matplotlib, Seaborn and Pandas
+
+### How does time of day (morning, afternoon, night) affect the incident rate of violent crime (assault or battery)?
+
 ![image](https://github.com/user-attachments/assets/4118bdbf-8a20-412e-aa14-8ff0e979b3ba)
+
+#### The analysis shows that assault and battery crimes in Chicago peak around midnight to 2 AM and again between 3 PM and 4 PM. The lowest occurrence is between 3 AM and 5 AM. These findings suggest focusing law enforcement efforts during these peak hours to enhance community safety.
+
+### From which locations were the greatest number of crime reported?
+
+![image](https://github.com/user-attachments/assets/e02907e6-3849-4df1-8b91-dd990bcbb58e)
+
+#### This analysis shows that crime is primarily reported crimes from Streets, Apartments, Residential homes and Sidewalks. This suggests that these types of locations are more prone to crime incidents.
 
 
