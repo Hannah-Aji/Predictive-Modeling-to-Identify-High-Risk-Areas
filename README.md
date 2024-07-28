@@ -1,5 +1,5 @@
 # safeline
-Analyzing Chicago Crime Dataset Using a Machine Learning Model
+Analyzing the Chicago Crime Dataset Using a Machine Learning Model
 
 ## Intriguing Questions
 
