@@ -5,15 +5,15 @@ Analyzing Chicago Crime Dataset Using an Unsupervised Machine Learning Model
 
 In the city of Chicago,
 
-* How does temperature affect the incident rate of violent crime (assault or battery)?
+* How does time of day (morning, afternoon, night) affect the incident rate of violent crime (assault or battery)?
 
-* Which month, location generally has the greatest number of crime reported?
+* From which locations were the greatest number of crime reported?
   
 * How do crime rates and types vary across different seasons and days of the week?
 
-* What categories of crime exhibited the greatest year-over-year increase between 2021 and 2022?
+* What categories of crime exhibited the greatest month-over-over increase between 2023 and Now?
 
-* How do crime patterns differ between residential blocks and commercial/industrial blocks within the same community area?
+* How do crime patterns differ between residential blocks and commercial/industrial blocks
 
 * Are certain types of crimes more likely to result in arrests than others?
 
@@ -66,15 +66,54 @@ To clean the data, I used Pandas to filter out data points (columns) irrelevant 
 | Year                  | 0              |
 | Location              | 0              |
 
-### Converting the 'Date' Column to Datetime Format
-From 03/18/2015 12:00:00 PM to 2015-03-18 12:00:00
-
 In this step,I converted the 'Date' column in the DataFrame to datetime format. This allows for easier manipulation and analysis of date and time information. The conversion is done using the `pd.to_datetime` function from the pandas library.
 
-```python
-# Convert the 'Date' column to datetime format
-df_clean['Date'] = pd.to_datetime(df_clean['Date'], format='%m/%d/%Y %I:%M:%S %p')
-```
+## Goals achieved with Data Cleaning Process
+
+#### Loading the Dataset
+The dataset was loaded into a pandas DataFrame from a CSV file. This dataset contains information about various crime incidents in Chicago.
+
+#### Removing Null Rows and Unwanted Columns:
+Null Rows: All rows with any missing values were removed using the dropna() method.
+Unwanted Columns: The following columns were dropped as they were deemed unnecessary for the analysis:
+            CASE#
+            IUCR
+            BEAT
+            WARD
+            FBI CD
+            X COORDINATE
+            Y COORDINATE
+            LATITUDE
+            LONGITUDE
+            LOCATION
+
+Renaming Columns:
+The columns were renamed for consistency and ease of use. The columns with leading and trailing spaces in their names were corrected. The new column names are:
+            DATE OF OCCURRENCE
+            BLOCK
+            PRIMARY DESCRIPTION
+            SECONDARY DESCRIPTION
+            LOCATION DESCRIPTION
+            ARREST
+            DOMESTIC
+            
+
+#### Converting Date Column to Datetime Format:
+The DATE OF OCCURRENCE column was converted to a datetime format using pd.to_datetime(). This ensures that the date information can be used effectively for time-based analysis.
+
+#### Resulting DataFrame Information
+The final columns in the DataFrame are:
+
+    DATE OF OCCURRENCE
+    BLOCK
+    PRIMARY DESCRIPTION
+    SECONDARY DESCRIPTION
+    LOCATION DESCRIPTION
+    ARREST
+    DOMESTIC
+    
+
+This cleaned dataset is now ready for further analysis, including time-based trends, location-based patterns, and predictive modeling.
 
 
 ## Exploratory Data Analysis
