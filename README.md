@@ -86,4 +86,38 @@ To summarize the conclusions to the above questions, these are visualization tha
 
 #### This analysis shows that crime is primarily reported crimes from Streets, Apartments, Residential homes and Sidewalks. This suggests that these types of locations are more prone to crime incidents.
 
+### Crime Types that show significant month-over-month increase between 2023 and now
+
+![image](https://github.com/user-attachments/assets/1ca6148b-c546-4a07-aa23-936365169107)
+
+![image](https://github.com/user-attachments/assets/491de434-612a-4953-8a53-48681c8f383d)
+
+### Are there more Crime types/patterns common to residential than commercial/industrial blocks?
+
+![image](https://github.com/user-attachments/assets/b3d4c0bf-cff8-406c-9f53-e65816967489)
+
+#### From the analysis,  Battery, Theft, and Assault are common in both Commercial and Residential areas however Deceptive practice crime reports are unique to Commercial areas while Criminal damage is unique to Residential areas. So, there is not primarily distinct crime types reported in both areas.
+
+
+### Number of Crimes in Residential vs Commercial Areas
+
+![image](https://github.com/user-attachments/assets/95b4b575-55d7-454b-a9bd-fd1e1cde1948)
+
+
+
+### Are certain types of crimes more likely to result in arrests than others?
+![image](https://github.com/user-attachments/assets/8e1c5447-d71f-452e-8b2f-882daf363d82)
+
+#### The analysis of the data for all reported crime types shows that there were no instances where an arrest did not occur. This means every recorded crime event had an arrest associated with it.
+
+### Predicting the safest locations ( residential or commercial areas) using a Logistic Regression model
+
+![image](https://github.com/user-attachments/assets/feb9aa74-48e4-424a-99dc-8c3aafee9479)
+
+#### Location Description has the highest feature importance value, as determined by the logistic regression model. This indicates that location is the most significant factor in our analysis. Based on previous insights, individuals are generally safer in commercial areas of Chicago compared to residential areas, as crimes are reported more frequently in residential zones than in commercial ones
+
+
+
+
+
 
